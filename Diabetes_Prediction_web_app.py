@@ -3,7 +3,9 @@ import pickle
 import streamlit as st
 
 # Update the model file path for your environment
-filename = 'C:/Users/sshob/Downloads/trained_model.sav'
+#filename = 'C:/Users/sshob/Downloads/trained_model.sav'
+filename = 'trained_model.sav'
+
 
 # loading the saved model
 loaded_model = pickle.load(open(filename, 'rb'))
